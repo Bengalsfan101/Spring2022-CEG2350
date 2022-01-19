@@ -1,7 +1,7 @@
 ## Lab 01
 
-- Name:
-- Email:
+- Name: Devin Shepherd 
+- Email: shepherd.112@wright.edu
 
 ## Part 1 Answers
 
