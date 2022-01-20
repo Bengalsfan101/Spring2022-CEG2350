@@ -15,11 +15,11 @@
 
 1. touch test.txt
 2. File contents:
-Joe Burrow 
+ 
 ```
-Trey Hendrickson 
+Joe Burrow, Trey Hendrickson, Zac Taylor
 ```
-Zac Taylor 
+
 ## Part 3 Answers
 
 1. cp DirA .hiddentext.txt
