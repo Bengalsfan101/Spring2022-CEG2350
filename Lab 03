@@ -1,0 +1,37 @@
+## Lab 03
+
+- Name: Devin Shepherd 
+- Email shepherd.112@wright.edu
+
+## Part 1 Answers
+
+1. Verify here that input.txt made it to GitHub in your `Lab03` folder input.txt was implemented into folder 'Lab03'
+2. sort 'input.txt'
+3. sort 'input.txt' >> 'output.txt'
+
+## Script Usage Guide
+
+1. How to run 'By playing with the file permission so that all views can read the file that is being presented.' 
+2. What extensions are expected 'The extenstion that is expected would use if. This will allow the file to end in .txt giving it permission to run. If the file doe not use if, then there will be a user error message and the code will not work.' 
+3. What is the output 'The output should consist of the certain number data that was entred manually and stored into the sorted.txt file.' 
+
+## Part 5 Answers
+
+1. PATH = is the list of directories that will be searched for anything that you type on the command line.
+2. The files will go into the bin section and will be permited access to only execute for all users. 
+3. Command: sudo mkdir /usr/java
+   - Full path: file_exists = os.path.isfile(/etc/yate/input.txt)
+                 if file_exists:
+                  do_something
+
+4. PATH = is the list of directories that will be searched for anything that you type on the command line.
+   - Difference: The files that did exists, now show when searching through the command line. 
+5. cp sorting-party /tmp/Lab03.md
+6. The command that would allow all users to access would be 666. This gives permission to read, write, and execute. 
+7. User, group, and others are allowed to access every file within the directory.
+
+## Extra Credit
+
+1. Note here if you did the extra credit so the tas can verify :) tput setaf 1; echo "this is red text" -For red text-
+                                                                  tput setaf 1; echo "this is purple text" -For purple text-
+     
