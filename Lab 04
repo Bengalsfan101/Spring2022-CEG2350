@@ -1,1 +1,49 @@
+## Lab 04
 
+- Name: Devin Shepherd 
+- Email shepherd.112@wright.edu
+
+## Part 1 Answers
+
+1. grep -iE '[[:digit:]]{3}-[[:digit:]]{3}-[[:digit:]]{4}[[:blank:]]{1,}x[[:digit:]]{1,}' grepdata.txt
+2. grep -iE '^[[:digit:]]{3}[[:blank:]]' grepdata.txt
+3. grep -iE '[[:alpha:]]{3}\.[[:blank:]]+[[:digit:]]{1,2},[[:blank:]]+[[:digit:]]{4}' grepdata.txt
+4. grep -iE "ca" grepdata.txt
+5. grep -nE ".@." grepdata.txt
+
+## Part 2 Answers
+
+1.import lxml
+from lxml.html.clean import Cleaner
+2. <li> whitespace <li / ->
+3. <h1> markdown <h1 / #>
+4. <h2> markdown <h2 / ##>
+5. $content=strip_tags($content,"<b><strong><em><i><p><br><ul><li><ol>")
+6. changefile.bat "Batches" "Matches" "file.txt" >"newfile.txt"
+
+## Part 3 Answers
+
+1.myfunction(){
+   find . -name 'Bil' -exec file {} \; | grep "image"
+}
+myfunction
+2.myfunction(){
+   find . -number '42' -exec file {} \; | grep "Email"
+}
+myfunction
+3.myfunction(){
+   find . -Email 'wright.edu' -exec file {} \; | grep "Last, First: Email"
+}
+myfunction
+4.myfunction(){
+   find . -Email 'wright.edu paasword' -exec file {} \; | grep "Last, favorite number is: #"
+}
+myfunction
+5.myfunction(){
+   find . -Email 'space.edu' -exec file {} \; | grep "universe.edu"
+}
+myfunction update1.txt
+6.myfunction(){
+   find . -password 'All' -exec file {} \; | grep "N0T@PL@!NP@$$W0RD"
+}
+myfunction update2.txt
