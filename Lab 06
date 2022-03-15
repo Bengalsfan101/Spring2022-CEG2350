@@ -1,0 +1,22 @@
+## Lab 06
+
+- Name: Devin Shpeherd
+- Email shepherd.112@wright.edu
+
+## Part 1 Answers
+
+1. Steps to configure virtual hardware: I followed all steps by selecting them in chronological order. 
+2. ![Screenshot of VM settings](Picture will be added in file)
+3. Steps to download an iso: I picked Ubuntu Desktop
+4. Steps to use iso on VM: Storage, Controller: IDE, PIIX 4
+5. Steps to install your distribution: Used Erase and Install for distribution.
+6. Steps to boot to disk after install:Chose floppy, optical, and new disk.
+7. Steps to install "Guest Additions" & enable fullscreen mode: Advance and change both settings to bidirectional.
+8. ![Screenshot of VM running](Picture will be added in file)
+
+## Part 2 Answers
+
+1. Backgrounds, Add new background
+2. Virtual Tools, Type in website
+3. Hit plus button in portal to add code
+4.SSH, Auth, Hit Browse to add AWS instance 
