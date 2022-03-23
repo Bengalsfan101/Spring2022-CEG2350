@@ -1,0 +1,45 @@
+## Lab 07
+
+- Name: Devin Shepherd
+- Email shepherd.112@wright.edu
+
+## Part 1 Answers
+
+1. findmnt
+2. There is not another drive listed in /dev/
+3. `gdisk` main menu options
+   - `p` --print 
+   - `o` --clear
+   - `n` --new=partnum:start:end
+   - `i` --info=partnum
+   - `w` --withdraw
+4. Using the `gdisk` utility on the disk: gdisk mkfs strings
+5. # fdisk -l 
+6. sudo mount -o expanse 
+7. sudo mkdir -p expanse
+8. Skip - trust you to do it ;)
+9. strings expanse
+10. delete partition [noerr] [override]
+11. "cd c:\users\vamsi\desktop\del" (Any file or image)
+12. No I am not able to interact with the files 
+
+## Part 2 Answers
+
+1. echo some-text  > original.txt
+2. For `original.txt` identify:
+   - Command to find the following info about `original.txt`: info [OPTION]... [MENU-ITEM...]
+   - inode number of `original.txt`: ls -il  original.txt
+   - number of blocks storing `original.txt`: 65803 blocks
+   - number of links to `original.txt`: $ ln  [original filename] [link name]
+3. Command to create a hard link to `original.txt`: ln original.txt 
+   - What identifiers indicate a hard link was created? ln target_file link_name
+   - Does modifying the hard linked file modify `original.txt`? Explain No, the file will still be the same in size even after modification. 
+4. Command to create a symbolic link to `original.txt ln [-sf] [source] [destination]
+   - What identifiers indicate a symbolic link was created? pname
+   - If `original.txt` was deleted, and a new `original.txt` was created, would the sym link still work? Explain Yes, if the file name is exactly the same.
+5. Command to create a copy of `original.txt` copy c:\original.txt
+   - Does modifying the copied file modify `original.txt`? Explain No, the copy file is different from the original. 
+6. Command to move `original.txt` to another directory. move original.txt destinationFolder
+   - Does it have the same inode? Explain Yes, because nothing is changed when moved into a directory
+   - Was the hard link you created affected? Explain No, the file was exactly the same.
+   - Was the symbolic link you created affected? Explain No, the file was exactly the same.
