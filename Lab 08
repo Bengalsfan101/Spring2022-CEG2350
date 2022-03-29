@@ -1,0 +1,51 @@
+## Lab 08
+
+- Name: Devin Shepherd 
+- Email shepherd.112@wright.edu
+
+## Part 1 Answers
+
+- Make sure infinity is in your Lab08 folder in GitHub
+I added infinity to my folder 
+## Part 2 Answers
+
+1. Getting started
+   - Command to find the PID: pgrep process_name
+   - PID of "Terminal A": pgrep Terminal_A
+   - PID of "Terminal B": pgrep Terminal_B
+2. Using `./` to run `infinity` in Terminal B
+   - PID of script:  pgrep [infinity] pattern
+   - Command to kill script: kill -PID
+   - Effects of running the script: You are not able to use Terminal B while infinity is running.
+3. Using `source` to run `infinity` in Terminal B
+   - PID of script: source infinity [Terminal B]
+   - Command to kill the script: kill -PID
+   - Effects of killing the script: Terminal A was also terminated as well.
+4. Running `infinity` as a background job in Terminal B
+   - Command to run script in background:
+   while true; do something_in_the_background; done
+   do_something_while_the_loop_goes_on_in_the_background
+   for 1 2 3; do somethingelse; done
+   exit 0
+   - Job ID of script: $ jobs -[Numerical Value]
+   - PID of script: thepid=$( <background.pid )
+   - Command to kill script via job id: kill %%
+   - Effects of exiting terminal: No, the terminal is not running after it is closed. There are special ways to keep the terminal running after it has been closed.
+5. Run `infinity` in a `screen` or `tmux` session
+   - Command(s) to run `infinity` in a screen session: screen -S infinity -p 0 -X screen command
+   - Detach from `screen` / `tmux` session: $ tmux new -s "infinity"
+   - Command to show `screen` / `tmux` sessions: tmux
+   - Effects of exiting terminal: No, the session will time out and will need to be restarted if the terminal is closed out.
+   - Command / steps to kill the `screen` / `tmux` session: $ tmux kill-session -t ostechnix
+
+## Part 3 Answers
+1. $ git branch <update>
+2. git checkout
+3. Added comments in the infinity that use #.
+4. Ctrl+Alt+K
+5. Confirmed? Yes, updates in branch file are there.
+6. $ git checkout master
+7. --squash
+8. git push -u origin <branch-main>
+9. Confirmed? Yes, changes to infinity are also changed in the main branch. 
+10. You can use the command <feature_branch> to tell you what branch you are on.
