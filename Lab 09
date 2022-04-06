@@ -1,0 +1,23 @@
+## Lab 09
+
+- Name: Devin Shepherd 
+- Email:shepherd.112@wright.edu
+
+## Part 1 Answers
+
+- Add your source code to your Lab09 folder in GitHub
+ Source code has been added to Github
+## Part 2 Answers
+
+1. Compiler: truffle
+   - Location: "solc"
+   - Version: "0.4.18+commit.9cf6e910.Emscripten.clang"
+2. Command to compile: cd c:\truffle
+3. Command to run: enter truffle to allow the compiler to run its program
+
+- Add your compiled code to your Lab09 folder in GitHub
+ Compiled code has been added to Github
+## Part 3 Answers
+
+- Add your Makefile to your Lab09 folder in GitHub
+Makefile has been added to Github
