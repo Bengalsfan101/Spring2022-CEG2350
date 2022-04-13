@@ -1,0 +1,41 @@
+## Lab 10
+
+- Name: Devin Shepherd
+- Email shepherd.112@wright.edu
+
+## Part 1 Answers
+
+1. The hostname: DESKTOP-DEV70
+2. The IP address: 239.255.255.250
+3. The MAC address using that IP address:00:25:96:FF:FE:12:34:56
+4. The subnet mask:200.100.10.0/25
+5. The gateway address:192.168.202.2
+6. The DHCP server address: 255.255.255.255
+7. The DNS server address:8.8.8.8
+8. How packets reach the Internet: They go in small amounts of data that is moved in hops.
+
+## Part 2 Answers
+
+1. How to find hostname for `3.228.104.170`: nslookup 3.228.104.170
+2. Port scan command: netstat -ab
+   - List of open ports: 2
+3. How to view webpage: By clicking on the open port that delivers the webpage.
+4. Command to find SSH version: nmap 3.228.104.170
+   - Version information:2
+
+## Part 3 Answers
+
+1. Command(s) to install `python3` and `pip3`:$ sudo apt-get install python3 and pip3
+2. `cd` into repo folder, run `python3 -m http.server 4141` started running the web server
+3. For AWS instance, identify:
+   - localhost IP:127.0.0.1
+   - instance private IP:10.132.0.0/20
+   - instance public IP:10.128.0.0/20
+4. URL:“http://192.168.1.100”
+5. Firewall implemented: I used iptables to block the port. This will allow only certain people to enter the port after saving it to the hardrive.
+
+## Part 4 Answers
+
+1. Run web server: Running the web server 
+2. Command:lsof http://192.168.1.100
+3. Command:sigkill 
