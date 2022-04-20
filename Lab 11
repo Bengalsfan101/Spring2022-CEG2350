@@ -1,0 +1,45 @@
+## Lab 11
+
+- Name: Devin Shepherd 
+- Email shepherd.112@wright.edu
+
+## Part 1 Answers
+
+1. Command(s) to install `python3` and `pip3`: install python3
+2. `cd` into repo folder, run `python3 -m http.server 5000` Went into AWS and started server.
+3. For AWS instance, identify:
+   - localhost IP:127.0.0.1
+   - instance private IP:10.0.0.82
+   - instance public IP:3.13.11.35
+4. URL:"http://192.168.1.100"
+5. Firewall implemented:iptables ssh port 5000
+
+## Part 2 Answers
+
+1. `tar` options:
+   - `-c`--create
+   - `-v`--verbose
+   - `-f`--file F
+   - `-z`--gzip
+   - `-x`--extract --get --delte
+2. Size of home directory: 2.0G
+3. Command(s):tar -zcvf archive-name.tar.gz 
+4. Size after tar'ring and compressing: 1.0G
+
+## Part 3 Answers:
+
+1. Command: sftp "http://192.168.1.100"
+2. `sftp` options:
+   - `ls` writes to standard output.
+   - `lls` print the name of files in directory.
+   - `put` uploads files to the file transfer service.
+   - `get` used to retrive a resource from a server.
+3. Command(s): tar zvxf source_name
+4. Command(s):gunzip tar.txt
+
+## Part 4 Answers:
+
+1. net user 
+2. sn -k (filename)
+3. .ssh/authorized_keys 
+4. sudo chown -R (username)
